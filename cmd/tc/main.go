@@ -4,25 +4,22 @@ import (
 	"fmt"
 	"os"
 	"strconv"
-)
 
-import (
 	gxnet "github.com/dubbogo/gost/net"
-
+	"github.com/seata/seata-go/pkg/base/common"
 	"github.com/urfave/cli/v2"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/common"
-	_ "github.com/transaction-wg/seata-golang/pkg/base/config_center/nacos"
-	_ "github.com/transaction-wg/seata-golang/pkg/base/registry/nacos"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/holder"
-	"github.com/transaction-wg/seata-golang/pkg/tc/lock"
-	_ "github.com/transaction-wg/seata-golang/pkg/tc/metrics"
-	"github.com/transaction-wg/seata-golang/pkg/tc/server"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/uuid"
+	_ "github.com/seata/seata-go/pkg/base/config_center/nacos"
+
+	_ "github.com/seata/seata-go/pkg/base/registry/nacos"
+	"github.com/seata/seata-go/pkg/tc/config"
+	"github.com/seata/seata-go/pkg/tc/holder"
+	"github.com/seata/seata-go/pkg/tc/lock"
+
+	_ "github.com/seata/seata-go/pkg/tc/metrics"
+	"github.com/seata/seata-go/pkg/tc/server"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/uuid"
 )
 
 func main() {
