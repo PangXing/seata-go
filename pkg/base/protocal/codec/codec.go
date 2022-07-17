@@ -2,15 +2,10 @@ package codec
 
 import (
 	"bytes"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/util/log"
 	"vimagination.zapto.org/byteio"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
 )
 
 type SerializerType byte

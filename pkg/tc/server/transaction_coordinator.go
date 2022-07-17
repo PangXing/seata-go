@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/client/rm"
-	"github.com/transaction-wg/seata-golang/pkg/client/tm"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/client/rm"
+	"github.com/seata/seata-go/pkg/client/tm"
+	"github.com/seata/seata-go/pkg/tc/session"
 )
 
 type TransactionCoordinatorInbound interface {

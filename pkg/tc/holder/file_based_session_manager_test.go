@@ -2,16 +2,11 @@ package holder
 
 import (
 	"testing"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/tc/config"
+	"github.com/seata/seata-go/pkg/tc/model"
 	"github.com/stretchr/testify/assert"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
 )
 
 func TestFileBasedSessionManager_AddGlobalSession(t *testing.T) {

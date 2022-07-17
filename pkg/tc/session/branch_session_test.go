@@ -2,15 +2,10 @@ package session
 
 import (
 	"testing"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/util/uuid"
 	"github.com/stretchr/testify/assert"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/util/uuid"
 )
 
 func TestBranchSession_Encode_Decode(t *testing.T) {

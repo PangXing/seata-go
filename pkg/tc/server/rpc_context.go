@@ -2,11 +2,8 @@ package server
 
 import (
 	getty "github.com/apache/dubbo-getty"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/model"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/model"
 )
 
 const IpPortSplitChar = ":"

@@ -3,18 +3,13 @@ package lock
 import (
 	"sync"
 	"testing"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/base/common"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/uuid"
 	"github.com/stretchr/testify/assert"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/common"
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/uuid"
 )
 
 func TestMain(m *testing.M) {

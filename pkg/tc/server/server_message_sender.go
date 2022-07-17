@@ -2,14 +2,9 @@ package server
 
 import (
 	"time"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/base/protocal"
 )
 
 type ServerMessageSender interface {

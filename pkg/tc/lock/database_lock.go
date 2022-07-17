@@ -2,16 +2,11 @@ package lock
 
 import (
 	"fmt"
-)
 
-import (
 	"github.com/pkg/errors"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/seata/seata-go/pkg/tc/model"
+	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 type DataBaseLocker struct {

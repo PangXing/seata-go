@@ -2,14 +2,12 @@ package file
 
 import (
 	"strings"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/constant"
-	"github.com/transaction-wg/seata-golang/pkg/base/extension"
-	"github.com/transaction-wg/seata-golang/pkg/base/registry"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/seata/seata-go/pkg/base/constant"
+	"github.com/seata/seata-go/pkg/base/extension"
+	"github.com/seata/seata-go/pkg/base/registry"
+	"github.com/seata/seata-go/pkg/client/config"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 func init() {

@@ -8,21 +8,17 @@ import (
 	"strconv"
 	"syscall"
 	"time"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
 
 	gxnet "github.com/dubbogo/gost/net"
-	"github.com/dubbogo/gost/sync"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/extension"
-	"github.com/transaction-wg/seata-golang/pkg/base/getty/readwriter"
-	"github.com/transaction-wg/seata-golang/pkg/base/registry"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	gxsync "github.com/dubbogo/gost/sync"
+	"github.com/seata/seata-go/pkg/base/extension"
+	"github.com/seata/seata-go/pkg/base/getty/readwriter"
+	"github.com/seata/seata-go/pkg/base/registry"
+	"github.com/seata/seata-go/pkg/tc/config"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 type Server struct {

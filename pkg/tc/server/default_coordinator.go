@@ -3,29 +3,26 @@ package server
 import (
 	"sync"
 	"time"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
+
 	gxtime "github.com/dubbogo/gost/time"
 	"github.com/pkg/errors"
-
 	"go.uber.org/atomic"
-)
 
-import (
-	getty2 "github.com/transaction-wg/seata-golang/pkg/base/getty"
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal/codec"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/event"
-	"github.com/transaction-wg/seata-golang/pkg/tc/holder"
-	"github.com/transaction-wg/seata-golang/pkg/tc/lock"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/runtime"
-	time2 "github.com/transaction-wg/seata-golang/pkg/util/time"
+	getty2 "github.com/seata/seata-go/pkg/base/getty"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/base/protocal/codec"
+	"github.com/seata/seata-go/pkg/tc/config"
+	"github.com/seata/seata-go/pkg/tc/event"
+	"github.com/seata/seata-go/pkg/tc/holder"
+	"github.com/seata/seata-go/pkg/tc/lock"
+	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/runtime"
+
+	time2 "github.com/seata/seata-go/pkg/util/time"
 )
 
 const (

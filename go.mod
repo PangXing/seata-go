@@ -1,6 +1,6 @@
-module github.com/transaction-wg/seata-golang
+module github.com/seata/seata-go
 
-go 1.14
+go 1.16
 
 require (
 	github.com/apache/dubbo-getty v1.4.7

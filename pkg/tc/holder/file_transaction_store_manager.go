@@ -5,17 +5,12 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/tc/model"
+	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/time"
 	"vimagination.zapto.org/byteio"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/time"
 )
 
 var FileTrxNum int64 = 0

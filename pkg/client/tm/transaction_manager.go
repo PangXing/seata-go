@@ -1,7 +1,7 @@
 package tm
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/meta"
 )
 
 type TransactionManager interface {

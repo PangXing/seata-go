@@ -2,15 +2,10 @@ package codec
 
 import (
 	"bytes"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/protocal"
 	"vimagination.zapto.org/byteio"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
 )
 
 func AbstractResultMessageDecoder(in []byte) (interface{}, int) {

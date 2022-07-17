@@ -2,11 +2,8 @@ package server
 
 import (
 	getty "github.com/apache/dubbo-getty"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 func (coordinator *DefaultCoordinator) OnTrxMessage(rpcMessage protocal.RpcMessage, session getty.Session) {

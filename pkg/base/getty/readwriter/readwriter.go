@@ -3,19 +3,12 @@ package readwriter
 import (
 	"bytes"
 	"encoding/binary"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
-
 	"github.com/pkg/errors"
-
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/base/protocal/codec"
 	"vimagination.zapto.org/byteio"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal/codec"
 )
 
 /**

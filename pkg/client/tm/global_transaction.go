@@ -2,18 +2,14 @@ package tm
 
 import (
 	"fmt"
-)
 
-import (
 	"github.com/pkg/errors"
-)
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/client/config"
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	context2 "github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	context2 "github.com/seata/seata-go/pkg/client/context"
+	"github.com/seata/seata-go/pkg/client/rpc_client"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 const (

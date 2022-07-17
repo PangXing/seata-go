@@ -2,19 +2,13 @@ package session
 
 import (
 	"bytes"
-)
 
-import (
 	"github.com/pkg/errors"
-
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/tc/config"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/uuid"
 	"vimagination.zapto.org/byteio"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/uuid"
 )
 
 type BranchSession struct {

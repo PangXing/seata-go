@@ -5,23 +5,19 @@ import (
 	"strings"
 	"sync"
 	"time"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
+
 	gxtime "github.com/dubbogo/gost/time"
 	"github.com/pkg/errors"
-
 	"go.uber.org/atomic"
-)
 
-import (
-	getty2 "github.com/transaction-wg/seata-golang/pkg/base/getty"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal/codec"
-	"github.com/transaction-wg/seata-golang/pkg/client/config"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/runtime"
+	getty2 "github.com/seata/seata-go/pkg/base/getty"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/base/protocal/codec"
+	"github.com/seata/seata-go/pkg/client/config"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/runtime"
 )
 
 const (

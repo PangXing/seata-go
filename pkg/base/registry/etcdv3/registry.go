@@ -7,23 +7,19 @@ import (
 	"strings"
 	"sync"
 	"time"
-)
 
-import (
 	gxetcd "github.com/dubbogo/gost/database/kv/etcd/v3"
 
 	perrors "github.com/pkg/errors"
 
+	"github.com/seata/seata-go/pkg/base/config"
+	"github.com/seata/seata-go/pkg/base/constant"
+	"github.com/seata/seata-go/pkg/base/extension"
+	"github.com/seata/seata-go/pkg/base/registry"
 	clientv3 "go.etcd.io/etcd/client/v3"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/config"
-	"github.com/transaction-wg/seata-golang/pkg/base/constant"
-	"github.com/transaction-wg/seata-golang/pkg/base/extension"
-	"github.com/transaction-wg/seata-golang/pkg/base/registry"
-	utils "github.com/transaction-wg/seata-golang/pkg/util/etcdv3"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	utils "github.com/seata/seata-go/pkg/util/etcdv3"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 func init() {

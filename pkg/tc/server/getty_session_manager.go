@@ -4,19 +4,13 @@ import (
 	"strconv"
 	"strings"
 	"sync"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
-
 	"github.com/pkg/errors"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/model"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/model"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 var (

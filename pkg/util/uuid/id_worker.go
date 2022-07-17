@@ -5,10 +5,8 @@ import (
 	"math/rand"
 	"net"
 	"sync/atomic"
-)
 
-import (
-	time2 "github.com/transaction-wg/seata-golang/pkg/util/time"
+	time2 "github.com/seata/seata-go/pkg/util/time"
 )
 
 const (

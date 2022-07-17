@@ -2,12 +2,9 @@ package tm
 
 import (
 	"github.com/pkg/errors"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/client/rpc_client"
 )
 
 type DefaultTransactionManager struct {

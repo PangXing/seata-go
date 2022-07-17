@@ -6,11 +6,9 @@ import (
 	"sync"
 	"unicode"
 	"unicode/utf8"
-)
 
-import (
-	context2 "github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	context2 "github.com/seata/seata-go/pkg/client/context"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 var (

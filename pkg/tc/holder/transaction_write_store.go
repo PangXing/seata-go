@@ -2,10 +2,7 @@ package holder
 
 import (
 	"github.com/pkg/errors"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/tc/session"
 )
 
 type TransactionWriteStore struct {

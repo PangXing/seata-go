@@ -3,12 +3,9 @@ package lock
 import (
 	"github.com/go-xorm/xorm"
 
+	"github.com/seata/seata-go/pkg/tc/model"
+	"github.com/seata/seata-go/pkg/util/log"
 	"xorm.io/builder"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
 )
 
 const (

@@ -4,20 +4,15 @@ import (
 	"encoding/json"
 	"fmt"
 	"strconv"
-)
 
-import (
 	"github.com/pkg/errors"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/proxy"
-	"github.com/transaction-wg/seata-golang/pkg/client/rm"
-	"github.com/transaction-wg/seata-golang/pkg/client/rpc_client"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/client/context"
+	"github.com/seata/seata-go/pkg/client/proxy"
+	"github.com/seata/seata-go/pkg/client/rm"
+	"github.com/seata/seata-go/pkg/client/rpc_client"
+	"github.com/seata/seata-go/pkg/util/log"
 )
 
 var (

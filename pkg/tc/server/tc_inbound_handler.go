@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/base/protocal"
 )
 
 type TCInboundHandler interface {

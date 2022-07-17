@@ -2,18 +2,16 @@ package server
 
 import (
 	"fmt"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/base/protocal"
-	"github.com/transaction-wg/seata-golang/pkg/tc/event"
-	"github.com/transaction-wg/seata-golang/pkg/tc/holder"
-	"github.com/transaction-wg/seata-golang/pkg/tc/lock"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/runtime"
-	"github.com/transaction-wg/seata-golang/pkg/util/time"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/seata/seata-go/pkg/tc/event"
+	"github.com/seata/seata-go/pkg/tc/holder"
+	"github.com/seata/seata-go/pkg/tc/lock"
+	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/runtime"
+	"github.com/seata/seata-go/pkg/util/time"
 )
 
 /**

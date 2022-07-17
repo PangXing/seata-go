@@ -4,20 +4,14 @@ import (
 	"encoding/json"
 	"reflect"
 	"strconv"
-)
 
-import (
 	gxnet "github.com/dubbogo/gost/net"
-
 	"github.com/pkg/errors"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/client/context"
-	"github.com/transaction-wg/seata-golang/pkg/client/proxy"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/time"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/client/context"
+	"github.com/seata/seata-go/pkg/client/proxy"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/time"
 )
 
 var (

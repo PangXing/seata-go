@@ -2,11 +2,9 @@ package lock
 
 import (
 	"sync"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/config"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/tc/config"
+	"github.com/seata/seata-go/pkg/tc/session"
 )
 
 var lockManager LockManager

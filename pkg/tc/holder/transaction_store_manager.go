@@ -2,11 +2,9 @@ package holder
 
 import (
 	"fmt"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/tc/model"
-	"github.com/transaction-wg/seata-golang/pkg/tc/session"
+	"github.com/seata/seata-go/pkg/tc/model"
+	"github.com/seata/seata-go/pkg/tc/session"
 )
 
 type LogOperation byte

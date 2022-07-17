@@ -2,16 +2,11 @@ package metrics
 
 import (
 	"sort"
-)
 
-import (
 	"github.com/rcrowley/go-metrics"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/meta"
-	"github.com/transaction-wg/seata-golang/pkg/tc/event"
-	"github.com/transaction-wg/seata-golang/pkg/util/runtime"
+	"github.com/seata/seata-go/pkg/base/meta"
+	"github.com/seata/seata-go/pkg/tc/event"
+	"github.com/seata/seata-go/pkg/util/runtime"
 )
 
 var (

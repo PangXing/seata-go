@@ -6,14 +6,9 @@ import (
 	"reflect"
 	"sort"
 	"strings"
-)
 
-import (
+	"github.com/seata/seata-go/pkg/util/log"
 	"gopkg.in/yaml.v2"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
 )
 
 type envVar struct {

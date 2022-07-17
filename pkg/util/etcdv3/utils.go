@@ -4,11 +4,9 @@ package etcdv3
 import (
 	"fmt"
 	"strconv"
-)
 
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/constant"
-	"github.com/transaction-wg/seata-golang/pkg/base/registry"
+	"github.com/seata/seata-go/pkg/base/constant"
+	"github.com/seata/seata-go/pkg/base/registry"
 )
 
 func IsAddressValid(addr registry.Address) bool {

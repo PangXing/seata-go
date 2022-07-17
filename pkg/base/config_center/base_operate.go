@@ -1,7 +1,7 @@
 package config_center
 
 import (
-	"github.com/transaction-wg/seata-golang/pkg/base/config"
+	"github.com/seata/seata-go/pkg/base/config"
 )
 
 // AddListener add config center listener

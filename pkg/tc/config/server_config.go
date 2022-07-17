@@ -6,28 +6,18 @@ import (
 	"io/ioutil"
 	"os"
 	"time"
-)
 
-import (
 	getty "github.com/apache/dubbo-getty"
-
 	"github.com/creasty/defaults"
-
 	"github.com/go-xorm/xorm"
-
 	"github.com/imdario/mergo"
-
 	"github.com/pkg/errors"
-
+	"github.com/seata/seata-go/pkg/base/config"
+	"github.com/seata/seata-go/pkg/base/config_center"
+	"github.com/seata/seata-go/pkg/base/extension"
+	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/seata/seata-go/pkg/util/parser"
 	"gopkg.in/yaml.v2"
-)
-
-import (
-	"github.com/transaction-wg/seata-golang/pkg/base/config"
-	"github.com/transaction-wg/seata-golang/pkg/base/config_center"
-	"github.com/transaction-wg/seata-golang/pkg/base/extension"
-	"github.com/transaction-wg/seata-golang/pkg/util/log"
-	"github.com/transaction-wg/seata-golang/pkg/util/parser"
 )
 
 var serverConfig *ServerConfig

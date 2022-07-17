@@ -2,10 +2,8 @@ package config
 
 import (
 	"time"
-)
 
-import (
-	config2 "github.com/transaction-wg/seata-golang/pkg/base/config"
+	config2 "github.com/seata/seata-go/pkg/base/config"
 )
 
 // GettyConfig
