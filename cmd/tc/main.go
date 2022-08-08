@@ -5,21 +5,21 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/PangXing/seata-go/pkg/base/common"
 	gxnet "github.com/dubbogo/gost/net"
-	"github.com/seata/seata-go/pkg/base/common"
 	"github.com/urfave/cli/v2"
 
-	_ "github.com/seata/seata-go/pkg/base/config_center/nacos"
+	_ "github.com/PangXing/seata-go/pkg/base/config_center/nacos"
 
-	_ "github.com/seata/seata-go/pkg/base/registry/nacos"
-	"github.com/seata/seata-go/pkg/tc/config"
-	"github.com/seata/seata-go/pkg/tc/holder"
-	"github.com/seata/seata-go/pkg/tc/lock"
+	_ "github.com/PangXing/seata-go/pkg/base/registry/nacos"
+	"github.com/PangXing/seata-go/pkg/tc/config"
+	"github.com/PangXing/seata-go/pkg/tc/holder"
+	"github.com/PangXing/seata-go/pkg/tc/lock"
 
-	_ "github.com/seata/seata-go/pkg/tc/metrics"
-	"github.com/seata/seata-go/pkg/tc/server"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/uuid"
+	_ "github.com/PangXing/seata-go/pkg/tc/metrics"
+	"github.com/PangXing/seata-go/pkg/tc/server"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/uuid"
 )
 
 func main() {
