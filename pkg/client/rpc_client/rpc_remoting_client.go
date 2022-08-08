@@ -12,12 +12,12 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/atomic"
 
-	getty2 "github.com/seata/seata-go/pkg/base/getty"
-	"github.com/seata/seata-go/pkg/base/protocal"
-	"github.com/seata/seata-go/pkg/base/protocal/codec"
-	"github.com/seata/seata-go/pkg/client/config"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/runtime"
+	getty2 "github.com/PangXing/seata-go/pkg/base/getty"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/base/protocal/codec"
+	"github.com/PangXing/seata-go/pkg/client/config"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/runtime"
 )
 
 const (

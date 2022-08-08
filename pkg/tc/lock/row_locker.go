@@ -3,8 +3,8 @@ package lock
 import (
 	"strings"
 
-	"github.com/seata/seata-go/pkg/base/common"
-	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/base/common"
+	"github.com/PangXing/seata-go/pkg/tc/session"
 )
 
 const LOCK_SPLIT = "^^^"

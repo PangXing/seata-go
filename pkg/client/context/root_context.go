@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 const (

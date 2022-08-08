@@ -3,11 +3,11 @@ package file
 import (
 	"strings"
 
-	"github.com/seata/seata-go/pkg/base/constant"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/base/registry"
-	"github.com/seata/seata-go/pkg/client/config"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/base/constant"
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/base/registry"
+	"github.com/PangXing/seata-go/pkg/client/config"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 func init() {

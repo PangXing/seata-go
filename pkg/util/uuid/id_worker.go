@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync/atomic"
 
-	time2 "github.com/seata/seata-go/pkg/util/time"
+	time2 "github.com/PangXing/seata-go/pkg/util/time"
 )
 
 const (

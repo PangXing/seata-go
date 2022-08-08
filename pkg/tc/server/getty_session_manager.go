@@ -5,12 +5,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/base/model"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	getty "github.com/apache/dubbo-getty"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/base/model"
-	"github.com/seata/seata-go/pkg/base/protocal"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 var (

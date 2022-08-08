@@ -3,8 +3,8 @@ package holder
 import (
 	"fmt"
 
-	"github.com/seata/seata-go/pkg/tc/model"
-	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/tc/model"
+	"github.com/PangXing/seata-go/pkg/tc/session"
 )
 
 type LogOperation byte

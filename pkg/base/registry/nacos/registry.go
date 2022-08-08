@@ -9,15 +9,15 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/clients/naming_client"
 
+	"github.com/PangXing/seata-go/pkg/base/config"
+	"github.com/PangXing/seata-go/pkg/base/constant"
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/base/registry"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	nacosConstant "github.com/nacos-group/nacos-sdk-go/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/model"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/config"
-	"github.com/seata/seata-go/pkg/base/constant"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/base/registry"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 func init() {

@@ -3,8 +3,8 @@ package session
 import (
 	"testing"
 
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/util/uuid"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/util/uuid"
 	"github.com/stretchr/testify/assert"
 )
 

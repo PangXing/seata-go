@@ -3,10 +3,10 @@ package lock
 import (
 	"fmt"
 
+	"github.com/PangXing/seata-go/pkg/tc/model"
+	"github.com/PangXing/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/tc/model"
-	"github.com/seata/seata-go/pkg/tc/session"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 type DataBaseLocker struct {

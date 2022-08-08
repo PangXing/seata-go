@@ -6,14 +6,14 @@ import (
 
 	getty "github.com/apache/dubbo-getty"
 
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/base/getty/readwriter"
+	"github.com/PangXing/seata-go/pkg/client/config"
 	gxsync "github.com/dubbogo/gost/sync"
 	"github.com/nacos-group/nacos-sdk-go/common/logger"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/base/getty/readwriter"
-	"github.com/seata/seata-go/pkg/client/config"
 
-	getty2 "github.com/seata/seata-go/pkg/client/rpc_client"
-	"github.com/seata/seata-go/pkg/util/log"
+	getty2 "github.com/PangXing/seata-go/pkg/client/rpc_client"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 type RpcClient struct {

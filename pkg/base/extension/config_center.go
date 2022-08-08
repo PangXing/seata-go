@@ -3,9 +3,9 @@ package extension
 import (
 	"sync"
 
+	"github.com/PangXing/seata-go/pkg/base/config"
+	"github.com/PangXing/seata-go/pkg/base/config_center"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/config"
-	"github.com/seata/seata-go/pkg/base/config_center"
 )
 
 var (

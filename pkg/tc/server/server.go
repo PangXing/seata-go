@@ -13,12 +13,12 @@ import (
 
 	gxnet "github.com/dubbogo/gost/net"
 
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/base/getty/readwriter"
+	"github.com/PangXing/seata-go/pkg/base/registry"
+	"github.com/PangXing/seata-go/pkg/tc/config"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	gxsync "github.com/dubbogo/gost/sync"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/base/getty/readwriter"
-	"github.com/seata/seata-go/pkg/base/registry"
-	"github.com/seata/seata-go/pkg/tc/config"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 type Server struct {

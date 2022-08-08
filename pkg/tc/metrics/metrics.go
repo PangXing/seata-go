@@ -3,10 +3,10 @@ package metrics
 import (
 	"sort"
 
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/tc/event"
+	"github.com/PangXing/seata-go/pkg/util/runtime"
 	"github.com/rcrowley/go-metrics"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/tc/event"
-	"github.com/seata/seata-go/pkg/util/runtime"
 )
 
 var (

@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	config2 "github.com/seata/seata-go/pkg/base/config"
+	config2 "github.com/PangXing/seata-go/pkg/base/config"
 )
 
 // GettyConfig

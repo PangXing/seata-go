@@ -3,8 +3,8 @@ package codec
 import (
 	"bytes"
 
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
 	"vimagination.zapto.org/byteio"
 )
 

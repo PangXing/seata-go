@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
+	"github.com/PangXing/seata-go/pkg/base/config"
+	"github.com/PangXing/seata-go/pkg/base/config_center"
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/parser"
 	"github.com/creasty/defaults"
 	"github.com/imdario/mergo"
-	"github.com/seata/seata-go/pkg/base/config"
-	"github.com/seata/seata-go/pkg/base/config_center"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/parser"
 	"gopkg.in/yaml.v2"
 )
 

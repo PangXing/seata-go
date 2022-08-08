@@ -1,8 +1,8 @@
 package holder
 
 import (
+	"github.com/PangXing/seata-go/pkg/tc/session"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/tc/session"
 )
 
 type TransactionWriteStore struct {

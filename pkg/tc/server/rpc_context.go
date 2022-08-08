@@ -1,9 +1,9 @@
 package server
 
 import (
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/base/model"
 	getty "github.com/apache/dubbo-getty"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/base/model"
 )
 
 const IpPortSplitChar = ":"

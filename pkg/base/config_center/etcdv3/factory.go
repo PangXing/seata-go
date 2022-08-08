@@ -6,11 +6,11 @@ import (
 
 	gxetcd "github.com/dubbogo/gost/database/kv/etcd/v3"
 
-	"github.com/seata/seata-go/pkg/base/config"
-	"github.com/seata/seata-go/pkg/base/config_center"
-	"github.com/seata/seata-go/pkg/base/constant"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/base/config"
+	"github.com/PangXing/seata-go/pkg/base/config_center"
+	"github.com/PangXing/seata-go/pkg/base/constant"
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

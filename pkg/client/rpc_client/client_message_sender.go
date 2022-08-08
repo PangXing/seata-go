@@ -3,7 +3,7 @@ package rpc_client
 import (
 	"time"
 
-	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
 )
 
 type ClientMessageSender interface {

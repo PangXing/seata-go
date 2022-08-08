@@ -3,13 +3,13 @@ package tm
 import (
 	"fmt"
 
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/client/config"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/client/config"
 
-	context2 "github.com/seata/seata-go/pkg/client/context"
-	"github.com/seata/seata-go/pkg/client/rpc_client"
-	"github.com/seata/seata-go/pkg/util/log"
+	context2 "github.com/PangXing/seata-go/pkg/client/context"
+	"github.com/PangXing/seata-go/pkg/client/rpc_client"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 const (

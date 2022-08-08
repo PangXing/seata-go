@@ -1,7 +1,7 @@
 package getty
 
 import (
-	"github.com/seata/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
 )
 
 // MessageFuture ...

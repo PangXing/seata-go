@@ -3,9 +3,9 @@ package server
 import (
 	"time"
 
+	"github.com/PangXing/seata-go/pkg/base/protocal"
 	getty "github.com/apache/dubbo-getty"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/protocal"
 )
 
 func (coordinator *DefaultCoordinator) SendResponse(request protocal.RpcMessage, session getty.Session, msg interface{}) {

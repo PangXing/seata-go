@@ -5,13 +5,13 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/PangXing/seata-go/pkg/base/common"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/tc/config"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/time"
+	"github.com/PangXing/seata-go/pkg/util/uuid"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/common"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/tc/config"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/time"
-	"github.com/seata/seata-go/pkg/util/uuid"
 	"vimagination.zapto.org/byteio"
 )
 

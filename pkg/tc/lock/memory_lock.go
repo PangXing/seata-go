@@ -5,11 +5,11 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/PangXing/seata-go/pkg/base/model"
+	"github.com/PangXing/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/util/hashcode"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/model"
-	"github.com/seata/seata-go/pkg/tc/session"
-	"github.com/seata/seata-go/pkg/util/hashcode"
-	"github.com/seata/seata-go/pkg/util/log"
 )
 
 const BucketPerTable = 128

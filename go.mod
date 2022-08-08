@@ -1,4 +1,4 @@
-module github.com/seata/seata-go
+module github.com/PangXing/seata-go
 
 go 1.16
 

@@ -1,9 +1,9 @@
 package holder
 
 import (
-	"github.com/seata/seata-go/pkg/tc/model"
-	"github.com/seata/seata-go/pkg/tc/session"
-	"github.com/seata/seata-go/pkg/util/time"
+	"github.com/PangXing/seata-go/pkg/tc/model"
+	"github.com/PangXing/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/util/time"
 )
 
 type DefaultSessionManager struct {

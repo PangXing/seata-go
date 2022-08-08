@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/seata/seata-go/pkg/base/constant"
-	"github.com/seata/seata-go/pkg/base/registry"
+	"github.com/PangXing/seata-go/pkg/base/constant"
+	"github.com/PangXing/seata-go/pkg/base/registry"
 )
 
 func IsAddressValid(addr registry.Address) bool {

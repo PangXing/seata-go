@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	context2 "github.com/seata/seata-go/pkg/client/context"
-	"github.com/seata/seata-go/pkg/client/proxy"
-	"github.com/seata/seata-go/pkg/util/log"
+	context2 "github.com/PangXing/seata-go/pkg/client/context"
+	"github.com/PangXing/seata-go/pkg/client/proxy"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 type GlobalTransactionServiceProxy interface {

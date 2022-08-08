@@ -3,15 +3,15 @@ package server
 import (
 	"fmt"
 
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/base/protocal"
-	"github.com/seata/seata-go/pkg/tc/event"
-	"github.com/seata/seata-go/pkg/tc/holder"
-	"github.com/seata/seata-go/pkg/tc/lock"
-	"github.com/seata/seata-go/pkg/tc/session"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/runtime"
-	"github.com/seata/seata-go/pkg/util/time"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/tc/event"
+	"github.com/PangXing/seata-go/pkg/tc/holder"
+	"github.com/PangXing/seata-go/pkg/tc/lock"
+	"github.com/PangXing/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/runtime"
+	"github.com/PangXing/seata-go/pkg/util/time"
 )
 
 /**

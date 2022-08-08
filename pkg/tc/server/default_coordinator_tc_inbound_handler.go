@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/base/protocal"
-	"github.com/seata/seata-go/pkg/tc/holder"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/tc/holder"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 func (coordinator *DefaultCoordinator) doGlobalBegin(request protocal.GlobalBeginRequest, ctx RpcContext) protocal.GlobalBeginResponse {

@@ -1,8 +1,8 @@
 package server
 
 import (
+	"github.com/PangXing/seata-go/pkg/base/protocal"
 	getty "github.com/apache/dubbo-getty"
-	"github.com/seata/seata-go/pkg/base/protocal"
 )
 
 type ServerMessageListener interface {

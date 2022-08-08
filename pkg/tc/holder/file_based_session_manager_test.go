@@ -3,9 +3,9 @@ package holder
 import (
 	"testing"
 
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/tc/config"
-	"github.com/seata/seata-go/pkg/tc/model"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/tc/config"
+	"github.com/PangXing/seata-go/pkg/tc/model"
 	"github.com/stretchr/testify/assert"
 )
 

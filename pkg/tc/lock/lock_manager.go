@@ -3,8 +3,8 @@ package lock
 import (
 	"sync"
 
-	"github.com/seata/seata-go/pkg/tc/config"
-	"github.com/seata/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/tc/config"
+	"github.com/PangXing/seata-go/pkg/tc/session"
 )
 
 var lockManager LockManager

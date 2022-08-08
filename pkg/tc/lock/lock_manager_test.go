@@ -4,11 +4,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/seata/seata-go/pkg/base/common"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/tc/session"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/uuid"
+	"github.com/PangXing/seata-go/pkg/base/common"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/uuid"
 	"github.com/stretchr/testify/assert"
 )
 

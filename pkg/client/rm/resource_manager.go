@@ -1,8 +1,8 @@
 package rm
 
 import (
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/base/model"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/base/model"
 )
 
 type ResourceManagerInbound interface {

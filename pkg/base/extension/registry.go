@@ -3,8 +3,8 @@ package extension
 import (
 	"sync"
 
+	"github.com/PangXing/seata-go/pkg/base/registry"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/registry"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 
 	getty "github.com/apache/dubbo-getty"
 
-	getty2 "github.com/seata/seata-go/pkg/base/getty"
-	"github.com/seata/seata-go/pkg/base/protocal"
-	"github.com/seata/seata-go/pkg/util/log"
+	getty2 "github.com/PangXing/seata-go/pkg/base/getty"
+	"github.com/PangXing/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 const (

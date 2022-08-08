@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"strconv"
 
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/client/context"
+	"github.com/PangXing/seata-go/pkg/client/proxy"
+	"github.com/PangXing/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/util/time"
 	gxnet "github.com/dubbogo/gost/net"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/client/context"
-	"github.com/seata/seata-go/pkg/client/proxy"
-	"github.com/seata/seata-go/pkg/util/log"
-	"github.com/seata/seata-go/pkg/util/time"
 )
 
 var (

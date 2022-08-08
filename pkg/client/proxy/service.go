@@ -7,8 +7,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	context2 "github.com/seata/seata-go/pkg/client/context"
-	"github.com/seata/seata-go/pkg/util/log"
+	context2 "github.com/PangXing/seata-go/pkg/client/context"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 var (

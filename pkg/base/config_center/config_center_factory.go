@@ -1,7 +1,7 @@
 package config_center
 
 import (
-	"github.com/seata/seata-go/pkg/base/config"
+	"github.com/PangXing/seata-go/pkg/base/config"
 )
 
 type DynamicConfigurationFactory interface {

@@ -12,14 +12,14 @@ import (
 
 	perrors "github.com/pkg/errors"
 
-	"github.com/seata/seata-go/pkg/base/config"
-	"github.com/seata/seata-go/pkg/base/constant"
-	"github.com/seata/seata-go/pkg/base/extension"
-	"github.com/seata/seata-go/pkg/base/registry"
+	"github.com/PangXing/seata-go/pkg/base/config"
+	"github.com/PangXing/seata-go/pkg/base/constant"
+	"github.com/PangXing/seata-go/pkg/base/extension"
+	"github.com/PangXing/seata-go/pkg/base/registry"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	utils "github.com/seata/seata-go/pkg/util/etcdv3"
-	"github.com/seata/seata-go/pkg/util/log"
+	utils "github.com/PangXing/seata-go/pkg/util/etcdv3"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 func init() {

@@ -1,11 +1,11 @@
 package holder
 
 import (
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/tc/config"
-	"github.com/seata/seata-go/pkg/tc/lock"
-	"github.com/seata/seata-go/pkg/tc/session"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/tc/config"
+	"github.com/PangXing/seata-go/pkg/tc/lock"
+	"github.com/PangXing/seata-go/pkg/tc/session"
+	"github.com/PangXing/seata-go/pkg/util/log"
 )
 
 var (

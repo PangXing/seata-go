@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/binary"
 
+	"github.com/PangXing/seata-go/pkg/base/protocal"
+	"github.com/PangXing/seata-go/pkg/base/protocal/codec"
 	getty "github.com/apache/dubbo-getty"
 	"github.com/pkg/errors"
-	"github.com/seata/seata-go/pkg/base/protocal"
-	"github.com/seata/seata-go/pkg/base/protocal/codec"
 	"vimagination.zapto.org/byteio"
 )
 

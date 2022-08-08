@@ -3,8 +3,8 @@ package holder
 import (
 	"github.com/go-xorm/xorm"
 
-	"github.com/seata/seata-go/pkg/tc/model"
-	"github.com/seata/seata-go/pkg/util/log"
+	"github.com/PangXing/seata-go/pkg/tc/model"
+	"github.com/PangXing/seata-go/pkg/util/log"
 	"xorm.io/builder"
 )
 

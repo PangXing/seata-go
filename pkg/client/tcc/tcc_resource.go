@@ -1,8 +1,8 @@
 package tcc
 
 import (
-	"github.com/seata/seata-go/pkg/base/meta"
-	"github.com/seata/seata-go/pkg/client/proxy"
+	"github.com/PangXing/seata-go/pkg/base/meta"
+	"github.com/PangXing/seata-go/pkg/client/proxy"
 )
 
 type TCCResource struct {
