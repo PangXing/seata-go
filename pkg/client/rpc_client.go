@@ -33,7 +33,8 @@ func NewRpcClient() *RpcClient {
 }
 
 func (c *RpcClient) init() {
-	addressList := getAvailServerList(c.conf)
+	//addressList := getAvailServerList(c.conf)
+	addressList := []string{"127.0.0.1:8091"}
 	if len(addressList) == 0 {
 		log.Warn("no have valid seata server list")
 	}

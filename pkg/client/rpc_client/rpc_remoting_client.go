@@ -61,6 +61,7 @@ type RpcRemoteClient struct {
 // OnOpen ...
 func (client *RpcRemoteClient) OnOpen(session getty.Session) error {
 	go func() {
+		// 注册TM的 resource
 		request := protocal.RegisterTMRequest{AbstractIdentifyRequest: protocal.AbstractIdentifyRequest{
 			Version:                 client.conf.SeataVersion,
 			ApplicationID:           client.conf.ApplicationID,
@@ -95,12 +96,14 @@ func (client *RpcRemoteClient) OnMessage(session getty.Session, pkg interface{})
 		return
 	}
 
+	// 探活
 	heartBeat, isHeartBeat := rpcMessage.Body.(protocal.HeartBeatMessage)
 	if isHeartBeat && heartBeat == protocal.HeartBeatMessagePong {
 		log.Debugf("received PONG from %s", session.RemoteAddr())
 		return
 	}
 
+	// 处理TC的请求
 	if rpcMessage.MessageType == protocal.MSGTypeRequest ||
 		rpcMessage.MessageType == protocal.MSGTypeRequestOneway {
 		log.Debugf("msgID: %d, body: %#v", rpcMessage.ID, rpcMessage.Body)
@@ -148,11 +151,13 @@ func (client *RpcRemoteClient) onMessage(rpcMessage protocal.RpcMessage, serverA
 	log.Debugf("onMessage: %#v", msg)
 	switch msg.GetTypeCode() {
 	case protocal.TypeBranchCommit:
+		// 提交操作
 		client.BranchCommitRequestChannel <- RpcRMMessage{
 			RpcMessage:    rpcMessage,
 			ServerAddress: serverAddress,
 		}
 	case protocal.TypeBranchRollback:
+		// 回滚操作
 		client.BranchRollbackRequestChannel <- RpcRMMessage{
 			RpcMessage:    rpcMessage,
 			ServerAddress: serverAddress,
